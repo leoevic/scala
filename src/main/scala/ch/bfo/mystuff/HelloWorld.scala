@@ -45,3 +45,28 @@ def revertAndUpperCase(sentence: String): String =
 
 def squaredSet(numbers: Set[Int]): Set[Int] =
   numbers.map(i => i * i)
+  
+
+/* Exercise 5: Convert ages to descriptions */
+@main def main5(): Unit =
+  println("Age: ")
+  val age = readLine().toInt
+  val description = describeAge(age)
+  println(description)
+  
+def describeAge(age: Int): String =
+  if (age < 0)
+    "Not born"
+  else if (age == 0)
+    "Baby"
+  else if (age >= 1 && age <= 12)
+    "Child"
+  else if (age >= 13 && age <= 19)
+    "Teen"
+  else if (age >= 20 && age <= 39)
+    "Young"
+  else if (age >= 40 && age <= 64)
+    "Middle aged"
+  else
+    "Old"
+    
