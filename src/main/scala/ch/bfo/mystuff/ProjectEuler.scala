@@ -12,4 +12,4 @@ import scala.math.ceil
   println(result)
 
 def getMultiples(number: Int, threshold: Int): List[Int] =
-  for (i <- 1 until ceil((threshold / number)).toInt)) map(i => i * number).toList
+  List(1)// for (i <- 1 until ceil((threshold / number)).toInt)) map(i => i * number).toList
