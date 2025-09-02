@@ -2,7 +2,7 @@ package ch.bfo.mystuff
 
 import scala.io.StdIn.readLine
 
-@main def helloWorld(): Unit =
+@main def helloWorld(): Unit = 
   println("Hello, World!")
 
 /* Exercise 1: Temperatures on a single line */
