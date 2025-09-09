@@ -1,7 +1,7 @@
 package week03.fibonacci
 
 import scala.io.StdIn.readLine
-
+/*
 @main def fibonacciMain(): Unit =
   println("Enter the maximum value:")
   val max = readLine().toInt
@@ -14,3 +14,4 @@ def fibonacci (max: Int): List[Int] =
   numbers match
     case head :: _ if (head >= max) => numbers
     case head 
+*/
